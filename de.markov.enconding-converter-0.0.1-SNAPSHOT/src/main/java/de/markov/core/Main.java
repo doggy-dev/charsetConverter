@@ -100,7 +100,7 @@ public class Main {
 					bytesToWrite[writeIndex] = (byte) 0x9f;
 					break;
 				default:
-					bytesToWrite[readIndex] = b;
+					bytesToWrite[writeIndex] = b;
 				}
 			}
 			FileOutputStream fos = new FileOutputStream(fileToModify);
